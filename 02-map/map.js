@@ -25,9 +25,9 @@ console.log(secretMessage.join(''));
 
 
 
-// const bigNumbers = [100, 200, 300, 400, 500];
+ const bigNumbers = [100, 200, 300, 400, 500];
 
 // Create the smallNumbers array below with map
+smallNumbers = bigNumbers.map(bigNumber => bigNumber/10)
 
-
-// console.log(smallNumbers);
+ console.log(smallNumbers);
